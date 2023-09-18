@@ -1,6 +1,126 @@
 *{
-*{
-*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.blocco1{
+    display: flex;
+    flex-direction: row;
+    background-color: lightskyblue;
+    height: 2rem;
+    justify-content: center;
+}
+
+.link {
+    background-color: orange;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.blocco2 {
+    display: flex;
+    background-color: blue;
+    height: 300px;
+}
+.quad {
+    background-color: fuchsia;
+    width: 50%;
+    margin: 1rem;
+    
+}
+
+.blocco3 {
+    display: flex;
+    background-color: white;
+    height: 300px;
+}
+
+.quad1 {
+    background-color: lightskyblue;
+    width: 40%;
+    margin: 1rem;
+}
+.quad2 {
+    background-color: lightpink;
+    width: 25%;
+    margin: 1rem;
+}
+
+
+.blocco4 {
+    display: flex;
+    background-color: lightgrey;
+    height: 300px;
+}
+.quad3 {
+    background-color: lightpink;
+    width: 25%;
+    margin: 1rem;
+}
+.quad4 {
+    background-color: lightskyblue;
+    width: 40%;
+    margin: 1rem;
+}
+
+.blocco5 {
+    display: flex;
+    background-color: white;
+    height: 300px;
+}
+.quad5 {
+    background-color: lightskyblue;
+    width: 40%;
+    margin: 1rem;
+}
+.quad6 {
+    background-color: lightpink;
+    width: 25%;
+    margin: 1rem;
+}
+
+.blocco6 {
+    display: flex;
+    background-color: lightgray;
+    height: 500px;
+}
+.quad7 {
+    background-color: forestgreen;
+    width: 65%;
+    margin: 1rem;
+}
+
+
+.blocco7 {
+    display: flex;
+    background-color: rgb(25, 25, 31);
+    height: 300px;
+
+}
+.quad8 {
+    background-color: coral;
+}
+.quad9 {
+    background-color: aquamarine;
+}
+
+hr {
+    background-color: white;
+    padding: 1px;
+}
+
+.blocco8 {
+    display: flex;
+    background-color: rgb(25, 25, 31);
+    height: 30px;
+}
+.logo2 {
+    background-color: coral;
+}
+.bottone {
+    background-color: coral;
+}
