@@ -129,12 +129,16 @@ footer {
 .col-footer {
     min-height: 400px;
     border: 1px dashed white;
-
+    width: calc(100% / 4);
 }
-
-
-
-
-
+.parte-finale {
+    border: 1px dashed white;
+    min-height: 100px;
+}
+.parte-finale .contenitore {
+    padding-top: 1rem;
+    background-color: aqua;
+    justify-content: end;
+}
 
 /*  /FOOTER*/
