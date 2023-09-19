@@ -9,6 +9,9 @@ img {
 }
 
 /*  HEADER*/
+.parte-superiore{
+    padding: 2rem;
+}
 
 .contenitore {
     width: 80%;
@@ -19,6 +22,7 @@ img {
 .contenitore-flex {
     display: flex;
 }
+
 .parte-superiore {
     height: 5rem;
     background-color: lightblue;
@@ -30,25 +34,15 @@ img {
     height: 1rem;
     display: flex;
     justify-content: center;
-
 }
 
-/*  LINK*/
-
-.link {
-    border: 1px solid white;
-}
-
+/*  LOGO*/
 .logo {
     width: 20%;
     background-color: orange;
 }
-.login {
-    width: 20%;
-    text-align: end;
-    background-color: orange;
-}
 
+/*  LINK*/
 .parte-navigazione {
     display: flex;
     margin: 0 .5rem;
@@ -56,10 +50,31 @@ img {
 }
 
 ul {
-    flex-grow: 1;
+    flex-grow: 2;
     list-style-type: none;
     display: flex;
     justify-content: center;
+}
+
+/*  LOGIN*/
+.login {
+    width: 20%;
+    text-align: end;
+    background-color: orange;
+}
+
+/*  HERO*/
+.hero {
+    background-color: blue;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.colonna-hero {
+    background-color: fuchsia;
+    width: 60%;
+    margin: 0 auto;
 }
 
 
@@ -67,20 +82,59 @@ ul {
 
 /* MAIN */
 
-.contenitore{
-    background-color: blue;
+/*  SEZIONE MAIN*/
+
+.sezione-main {
+    padding: 2rem;
+}
+.riga {
+    display: flex;
+}
+.colonna-grande {
+    width: 65%;
+    background-color: lightblue;
+    min-height: 300px;
+}
+.colonna-piccola {
+    width: 35%;
+    background-color: lightpink;
+    min-height: 300px;
+}
+.sfondo {
+    background-color: lightgray;
 }
 
-.colonna {
-    background-color: fuchsia;
-    width: 60%;
-    margin: 0 auto;
-
+.colonna-unica {
+    min-height: 500px;
+    background-color: green;
 }
 /* /MAIN */
 
-
-
 /*  FOOTER */
+
+footer {
+    background-color: darkblue;
+}
+.colonna-footer1 {
+    width: 30%;
+    background-color: coral;
+    min-height: 400px;
+}
+.colonna-footer2 {
+    width: 70%;
+    background-color: aqua;
+    min-height: 400px;
+    display: flex;
+}
+.col-footer {
+    min-height: 400px;
+    border: 1px dashed white;
+
+}
+
+
+
+
+
 
 /*  /FOOTER*/
